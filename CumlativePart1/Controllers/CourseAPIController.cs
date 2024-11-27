@@ -14,18 +14,10 @@ namespace CumlativePart1.Controllers
         {
             _context = context;
         }
-        /// <summary>
-        // get  a list of all courses from the database.
-        /// </summary>
-        /// <returns>
-        /// a list contains , the course ID, teacher ID, course code, name, start date, and finish date.
-        /// </returns>
-        /// <remarks>
-        /// This method  check the  "courses" table and returns a collection of course objects with relevant details.
-        /// </remarks>
-        /// <example>
-
-        /// </example>
+       /// <summary>
+       /// get 
+       /// </summary>
+       /// <returns></returns>
 
 
 

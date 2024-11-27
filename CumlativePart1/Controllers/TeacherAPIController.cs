@@ -127,20 +127,7 @@ namespace CumlativePart1.Controllers
             }
             return SelectedTeacher;
         }
-        /// <summary>
-        /// Retrieves a list of courses taught by a specific teacher, identified by their teacher ID.
-        /// </summary>
-        /// <param name="id">The ID of the teacher whose courses are to be retrieved.</param>
-        /// <returns>
-        /// A list of course names taught by the specified teacher.
-        /// </returns>
-        /// <remarks>
-        /// This method connects to the database and retrieves the list of courses assigned to the teacher with the given ID.
-        /// If no courses are found, an empty list will be returned.
-        /// </remarks>
-        /// <example>
-        /// GET api/Teacher/GetCoursesByTeacher/1 -> ["Web Application Development"]
-        /// </example>
+      
 
         [HttpGet]
         [Route("GetCoursesByTeacher/{id}")]

@@ -2,7 +2,7 @@
 using CumlativePart1.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CumulativePart1.Controllers
+namespace CumlativePart1.Controllers
 {
     public class CoursePageController : Controller
     {
