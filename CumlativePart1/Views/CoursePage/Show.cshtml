@@ -1,0 +1,77 @@
+﻿@model CumlativePart1.Models.Course
+
+<style>
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: #eef5e9;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        background-color: #ffffff;
+        padding: 25px;
+        border: 2px solid #4caf50;
+        border-radius: 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+        text-align: center;
+        color: #2e7d32;
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+    }
+
+    th, td {
+        padding: 15px;
+        border: 1px solid #c8e6c9;
+        text-align: center;
+        font-size: 15px;
+        word-wrap: break-word;
+    }
+
+    th {
+        background-color: #4caf50;
+        color: #ffffff;
+        text-transform: capitalize;
+    }
+
+    tbody tr:nth-child(odd) {
+        background-color: #f1f8e9;
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+    tbody tr:hover {
+        background-color: #dcedc8;
+    }
+
+    .footer {
+        text-align: right;
+        margin-top: 15px;
+        font-size: 13px;
+        color: #5d6d5f;
+    }
+</style>
+
+<div class="container">
+    <h1>Course Overview</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Course Name</th>
+                <th>Code</th>
+                <th>Instructor ID</th>
+                <th>Start Date</th>
