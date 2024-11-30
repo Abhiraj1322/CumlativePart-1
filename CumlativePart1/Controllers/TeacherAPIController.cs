@@ -13,7 +13,7 @@ namespace CumlativePart1.Controllers
     {
         private readonly SchooldbContext _context;
 
-        // Constructor to initialize the database context
+      
         public TeacherAPIController(SchooldbContext context)
         {
             _context = context;
